@@ -5,7 +5,7 @@ import torchvision.transforms as transforms
 import torchvision.models as models
 
 # Define path to the saved model
-BLOOD_CELL_MODEL_PATH = 'model.pth'
+BLOOD_CELL_MODEL_PATH = 'models/model.pth'
 
 # Custom ResNet model definition
 class CustomResNet(torch.nn.Module):
